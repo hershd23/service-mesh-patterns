@@ -33,3 +33,4 @@ jobs:
           provider_token: ${{ github.event.inputs.provider_token }}
           platform: ${{ github.event.inputs.platform }}
           pattern_url: ${{ github.event.inputs.pattern_url }}
+          pattern_file: ${{ github.event.inputs.pattern_file }}
